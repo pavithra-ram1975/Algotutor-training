@@ -75,3 +75,41 @@ public class Pattern {
 543
 54
 5
+public class Pattern {
+    public static void main(String[] args)
+    {
+        int row=5;
+        for(int i=row;i>=1;i--){
+            for(int j=row;j>=i;j--){
+            // System.out.print("*");
+            System.out.print(j);
+
+            }
+            System.out.println();
+        }
+    }
+}
+5
+54
+543
+5432
+54321
+public class Pattern {
+    public static void main(String[] args)
+    {
+        int n=5;
+        for(int row=n;row>=1;row--){
+            for(int col=row;col>=1;col--){
+            // System.out.print("*");
+            System.out.print(col);
+
+            }
+            System.out.println();
+        }
+    }
+}
+54321
+4321
+321
+21
+1
